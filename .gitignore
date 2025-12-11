@@ -1,0 +1,29 @@
+# --- VIRTUAL ENVIRONMENTS ---
+venv/
+venv310/
+.env/
+
+# --- PYTHON CACHE ---
+__pycache__/
+*.pyc
+
+# --- NOTEBOOK CACHE ---
+.ipynb_checkpoints/
+
+# --- LARGE DATA FILES ---
+data/*.csv
+data/*.xlsx
+data/raw/
+data/processed/
+
+# --- MODELS (binary files) ---
+models/*.pkl
+models/*.joblib
+models/*.sav
+
+# --- STREAMLIT ---
+.streamlit/
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
